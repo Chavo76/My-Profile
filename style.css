@@ -19,10 +19,10 @@ html, body{
     }
 .profile{
     width: 100%;
-    max-width: 340px;
+    
     background: #32384f;
     text-align: center;
-    padding: 30px 20px;
+    padding: 20px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     color: #fff;
