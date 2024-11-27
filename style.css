@@ -102,7 +102,7 @@ li{
    }
 
    .btn{
-    width: 90%; /* The buttons will take almost the full width on mobile */
+    width: 30%; /* The buttons will take almost the full width on mobile */
     font-size: 16px; /* Increase the full size for readability */
     padding: 12px; /* Added some more padding for a better touch target */
    }
