@@ -19,7 +19,6 @@ html, body{
     }
 .profile{
     width: 100%;
-    
     background: #32384f;
     text-align: center;
     padding: 20px;
@@ -71,7 +70,7 @@ section{
 }
 
 h2{
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
     color: #32384f;
@@ -121,7 +120,7 @@ font-size: 26px;
     }
 
     header p {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     section h2 {
