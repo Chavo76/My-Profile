@@ -15,7 +15,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    padding: 0 10px;
     }
 .profile{
     width: 100%;
@@ -153,6 +153,8 @@ font-size: 26px;
         gap: 15px; /* space between buttons*/
         align-items: center;/* will center the buttons horizontally*/
         margin-top: 30px; /* will give space to the top and push buttons down */
+        padding 10px 0;
+        width: 100%;
     }
 
 
