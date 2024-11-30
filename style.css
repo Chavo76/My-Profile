@@ -111,6 +111,7 @@ li{
 @media (max-width:768px){
     .container{
         padding: 0;
+        padding-top: 10%;
     }
    }
 
