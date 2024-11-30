@@ -165,7 +165,7 @@ font-size: 26px;
         background: linear-gradient(to right, #8d68c5, #e34494);
         display: inline-block;
         font-size: 16px;
-        width: 90%; /* default with for larger screens*/
+        width: 50%; /* default with for larger screens*/
         margin-bottom: 15px; /* Ensures spacing between butttons*/
         margin-top: 10px; /* Allows space from the profile text */
         color: white;
