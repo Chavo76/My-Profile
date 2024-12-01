@@ -110,8 +110,7 @@ li{
 /* For smaller screens like phones and tablets*/
 @media (max-width:768px){
     .resume-container{
-        
-        padding-top: 10%;
+        padding-top: 5vh;
     }
    }
    .btn{
