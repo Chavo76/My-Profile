@@ -109,7 +109,7 @@ li{
 
 /* For smaller screens like phones and tablets*/
 @media (max-width:768px){
-    .container{
+    .resume-container{
         padding: 0;
     }
    }
