@@ -109,14 +109,7 @@ li{
 
 
 
-   /* For very small screens like portrait phones */
-   @media (max-width: 480px) {
-    .btn {
-        width: 95%; /* Increase width for smaller screens */
-        font-size: 17px; /* Adjust font size for small devices */
-        padding: 15px; /* Larger touch target */
-    }
-   }
+  
     
     header h1 {
 font-size: 26px;
