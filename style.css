@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+.container{
+    width: 100%;
+    height: 100vh; 
+    background: #ededff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 ;
+    }
+.profile{
+    width: 100%;
+    max-width: 320;
+    height: 100%;
+    background: #32384f;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-img{
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+body, .container {
+    background: #ededff;
+    background-attachment: fixed; /* keeps the background in place */
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    margin: 0;
+}
+
+
+.resume-container{
+   width: 90%; 
+   max-width: 900px;
+   background: #fff;
+   padding: 30px;
+   padding-top: 30%;
+   padding-left: 5%;
+   padding-right: 5%;
+   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   height: auto;
+   
+}
+
+header h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+header p{
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+header a {
+    color: #8d68c5;
+    text-decoration: none;
+
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 29px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #32384f;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    }
+
+ul{
+    margin-left: 20px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+
+/* For smaller screens like phones and tablets*/
+@media (max-width:768px){
+    .resume-container{
+        
+        padding-top: 10%;
+    }
+   }
+   .btn{
+    width: 30%; /* The buttons will take almost the full width on mobile */
+    font-size: 16px; /* Increase the full size for readability */
+    padding: 12px; /* Added some more padding for a better touch target */
+   }
+
+
+   /* For very small screens like portrait phones */
+   @media (max-width: 480px) {
+    .btn {
+        width: 95%; /* Increase width for smaller screens */
+        font-size: 17px; /* Adjust font size for small devices */
+        padding: 15px; /* Larger touch target */
+    }
+   }
+    
+    header h1 {
+font-size: 26px;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    section h2 {
+        font-size: 22px;
+    }
+    
+.profile h2{
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+
+    }
+    .profile p{
+        font-size: 12px;
+        color: #fff;
+        margin-top: 10px;
+        margin-bottom: 20px ;
+    }
+
+/* Base styling for large screens*/
+    .profile .btn-container{
+        display: flex;
+        flex-direction: column; /* will stack the buttons vertically*/
+        gap: 15px; /* space between buttons*/
+        align-items: center;/* will center the buttons horizontally*/
+        margin-top: 30px; /* will give space to the top and push buttons down */
+        padding: 10px 0;
+        width: 100%;
+    }
+
+
+    .btn{
+        text-decoration: none;
+        color: #fff;
+        padding: 12px;
+        border-radius: 30px; /* makes the buttons have rounded edges */
+        background: linear-gradient(to right, #8d68c5, #e34494);
+        display: inline-block;
+        font-size: 16px;
+        width: 60%; /* default with for larger screens*/
+        margin-bottom: 15px; /* Ensures spacing between butttons*/
+        margin-top: 10px; /* Allows space from the profile text */
+        color: white;
+        text-align: center;
+    }
+
+    .download-button{
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .download-icon{
+        text-decoration:underline;
+        text-decoration: #6a68c5;
+        text-decoration-thickness: 2px ;
+        font-size: 20px;
+        color: #6a68c5;
+        transition: color 0.3s ease;
+    }
+
+    .download-icon:hover{
+        color: #e34494;
+    }
+
+    
+    
+    
+    
