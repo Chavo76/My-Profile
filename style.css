@@ -109,8 +109,9 @@ li{
 
 /* For smaller screens like phones and tablets*/
 @media (max-width:768px){
-    .resume-container{
-        padding-top: 5px;
+    .container{
+        padding:0;
+        padding-top: 10px;
     }
    }
 
