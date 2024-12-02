@@ -51,8 +51,8 @@ body, .container {
    width: 90%; 
    max-width: 900px;
    background: #fff;
-   padding: 30px;
-   padding-top: 30%;
+   padding: 30px 5%;
+   
    padding-left: 5%;
    padding-right: 5%;
    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
