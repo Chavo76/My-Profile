@@ -1,200 +1,236 @@
-*{
+/* Basic Reset */
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-html, body{
-    height: 100%;
-    width: 100%;
-    overflow: auto;
+
+/* Body and general layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
 }
-.container{
+
+.container {
     width: 100%;
-    height: 100vh; 
-    background: #ededff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 ;
-    }
-.profile{
-    width: 100%;
-    max-width: 320;
-    height: 100%;
-    background: #32384f;
-    text-align: center;
-    padding: 30px 20px;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-.user-img{
-    width: 100px;
-    border-radius: 50%;
+    padding: 20px;
     margin: 0 auto;
 }
-body, .container {
-    background: #ededff;
-    background-attachment: fixed; /* keeps the background in place */
-    width: 100%;
-    height: 100vh;
-    overflow: auto;
-    margin: 0;
-}
 
-.resume-container{
-   width: 90%; 
-   max-width: 900px;
-   background: #fff;
-   padding: 30px;
-   padding-top: 40%;
-   padding-left: 5%;
-   padding-right: 5%;
-   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-   border-radius: 10px;
-   height: auto;
-   
-}
-
-header h1{
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 10px;
+/* Profile Section */
+.profile {
     text-align: center;
-}
-header p{
-    font-size: 18px;
-    color: #555;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-header a {
-    color: #8d68c5;
-    text-decoration: none;
-
-}
-
-section{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
-h2{
-    font-size: 29px;
+.profile .user-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.profile p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.profile .btn {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.profile .btn:hover {
+    background-color: #0056b3;
+}
+
+.profile .btn--contact {
+    background-color: #28a745;
+}
+
+.profile .btn--contact:hover {
+    background-color: #218838;
+}
+
+/* Resume Page Styles */
+.resume-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 32px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #32384f;
 }
 
-h3{
+header p {
     font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 5px;
-    }
-
-ul{
-    margin-left: 20px;
-}
-
-li{
+    color: #555;
     margin-bottom: 5px;
 }
 
+section h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #007BFF;
+    text-decoration: underline;
+}
 
-/* For smaller screens like phones and tablets*/
-@media (max-width:768px){
-    .resume-container{
-        padding-top: 10%;
+section p, section ul {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.job, .school {
+    margin-bottom: 20px;
+}
+
+.job p, .school p {
+    font-size: 16px;
+    color: #555;
+}
+
+.back-to-profile {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-to-profile:hover {
+    background-color: #0056b3;
+}
+
+.download-button {
+    margin-top: 20px;
+}
+
+.download-icon {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ffc107;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-icon:hover {
+    background-color: #e0a800;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Profile Section */
+    .profile h2 {
+        font-size: 20px;
     }
-   }
-   
-  /* For very small screens like portrait phones */
-   @media (max-width: 480px) {
-    .btn {
-        width: 95%; /* Increase width for smaller screens */
-        font-size: 17px; /* Adjust font size for small devices */
-        padding: 15px; /* Larger touch target */
+
+    .profile p {
+        font-size: 14px;
     }
-   }
-    
+
+    .profile .user-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* Resume Page Styles */
+    .resume-container {
+        padding: 15px;
+    }
+
     header h1 {
-font-size: 26px;
-    }
-
-    header p {
-        font-size: 12px;
+        font-size: 28px;
     }
 
     section h2 {
-        font-size: 22px;
-    }
-    
-.profile h2{
-    font-weight: 600;
-    font-size: 24px;
-    margin-top: 20px;
-    color: #fff;
-    margin-bottom: 10px;
-
-    }
-    .profile p{
-        font-size: 12px;
-        color: #fff;
-        margin-top: 10px;
-        margin-bottom: 20px ;
-    }
-
-/* Base styling for large screens*/
-    .profile .btn-container{
-        display: flex;
-        flex-direction: column; /* will stack the buttons vertically*/
-        gap: 15px; /* space between buttons*/
-        align-items: center;/* will center the buttons horizontally*/
-        margin-top: 30px; /* will give space to the top and push buttons down */
-        padding: 10px 0;
-        width: 100%;
-    }
-
-
-    .btn{
-        text-decoration: none;
-        color: #fff;
-        padding: 12px;
-        border-radius: 30px; /* makes the buttons have rounded edges */
-        background: linear-gradient(to right, #8d68c5, #e34494);
-        display: inline-block;
-        font-size: 16px;
-        width: 60%; /* default with for larger screens*/
-        margin-bottom: 15px; /* Ensures spacing between butttons*/
-        margin-top: 10px; /* Allows space from the profile text */
-        color: white;
-        text-align: center;
-    }
-
-    .download-button{
-        margin-top: 40px;
-        text-align: center;
-    }
-
-    .download-icon{
-        text-decoration:underline;
-        text-decoration: #6a68c5;
-        text-decoration-thickness: 2px ;
         font-size: 20px;
-        color: #6a68c5;
-        transition: color 0.3s ease;
     }
 
-    .download-icon:hover{
-        color: #e34494;
+    section p, section ul, .job p, .school p {
+        font-size: 14px;
     }
 
-    
-    
-    
-    
+    .back-to-profile, .download-icon {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Mobile adjustments */
+    .profile {
+        padding: 15px;
+    }
+
+    .profile .user-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile h2 {
+        font-size: 18px;
+    }
+
+    .profile p {
+        font-size: 13px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .resume-container {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    section h2 {
+        font-size: 18px;
+    }
+
+    section p, section ul, .job p, .school p {
+        font-size: 13px;
+    }
+
+    .back-to-profile, .download-icon {
+        font-size: 12px;
+    }
+}
