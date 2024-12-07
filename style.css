@@ -72,9 +72,8 @@ body {
     font-size: 16px;
     transition: background-color 0.3s ease;
 }
-
 .profile .btn:hover {
-    background-color: #0056b3;
+    background: linear-gradient(135deg, #e34494, #8d68c5);
 }
 
 .profile .btn--contact {
