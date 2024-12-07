@@ -62,7 +62,7 @@ body {
     width: 250%;
     max-width: 250px;
     margin: 10px auto;
-    background-color: linear-gradient(to right,#8d68c5,#e34494 );
+    background-color: linear-gradient(135deg, #8d68c5, #e34494 );
     color: white;
     padding: 12px;
     text-decoration: none;
