@@ -47,12 +47,14 @@ body {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 5px;
+    color: white;
 }
 
 .profile p {
     font-size: 16px;
     color: #666;
     margin-bottom: 15px;
+    color: white;
 }
 
 .profile .btn {
