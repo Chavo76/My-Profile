@@ -175,7 +175,7 @@ ul li {
     /* Profile Section */
     .profile h2 {
         font-size: 20px;
-        height: 100vh;
+        
     }
 
     .profile p {
@@ -189,8 +189,7 @@ ul li {
 
     /* Resume Page Styles */
     .resume-container {
-        height: 100vh;
-        padding: 15px;
+         padding: 15px;
     }
 
     header h1 {
