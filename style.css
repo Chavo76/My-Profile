@@ -14,8 +14,9 @@ body {
 
 .container {
     width: 100%;
-    padding: 20px;
-    margin: 0 auto;
+    height: 100vh;
+    padding: ;
+    margin: 0;
 }
 
 /* Profile Section */
