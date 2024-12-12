@@ -156,6 +156,7 @@ ul li {
 
 .download-button {
     margin-top: 20px;
+    text-align: center;
 }
 
 .download-icon {
@@ -165,7 +166,7 @@ ul li {
     color: #333;
     text-decoration: none;
     border-radius: 5px;
-    text-align:center;
+    
 }
 
 .download-icon:hover {
